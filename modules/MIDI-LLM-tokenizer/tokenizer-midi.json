@@ -29,6 +29,15 @@
       "rstrip": false,
       "normalized": false,
       "special": true
+    },
+    {
+      "id": 20096,
+      "content": "<sep>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
     }
   ],
   "normalizer": {
@@ -20137,7 +20146,8 @@
       "pa:7f:8": 20092,
       "pa:7f:9": 20093,
       "pa:7f:a": 20094,
-      "pa:7f:b": 20095
+      "pa:7f:b": 20095,
+      "<sep>": 20096
     },
     "unk_token": "<pad>"
   }
