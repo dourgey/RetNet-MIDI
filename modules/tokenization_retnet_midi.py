@@ -37,6 +37,6 @@ class RetNetMIDITokenizer(PreTrainedTokenizer):
 
 
 if __name__ == '__main__':
-    vocab_file = r"C:\Users\zhaoj\OneDrive\Project\RetNet-MIDI\modules\MIDI-LLM-tokenizer\tokenizer-midi.json"
+    vocab_file = r"..\modules\MIDI-LLM-tokenizer\tokenizer-midi.json"
     tokenizer = RetNetMIDITokenizer(vocab_file)
     print(tokenizer(["<start> pi:2f:7 pi:36:7 pi:3b:7 t123 <end> <sep> <start> pi:43:7 t58 pi:43:0 t3 pi:45:7", "t1 pi:47:9 pi:4c:9 pi:4f:0 <end>"], padding=True, return_tensors='pt'))
