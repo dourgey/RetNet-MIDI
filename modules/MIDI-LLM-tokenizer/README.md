@@ -47,7 +47,7 @@ python ./build_tokenizer.py
 Converts a directory or archive of mid/midi files into a jsonl file of note sequences.
 
 ```sh
-python ./midi_to_jsonl.py --path ~/lmd_full.tar.gz --output ~/lmd_full.jsonl --workers 4
+python ./midi_to_jsonl_self.py --path ~/lmd_full.tar.gz --output ~/lmd_full.jsonl --workers 4
 ```
 
 ## midi/text conversion
